@@ -24,12 +24,16 @@
 
 사용 예시
 * google의 연관 장소 이미지 링크를 검색할 경우
-  * 브라우저 : http://20.194.32.93/v1/place?q=google
-  * curl : curl -v -X GET "http://20.194.32.93/v1/place?q=google"
+  * 브라우저
+    * http://20.194.32.93/v1/place?q=google
+  * CURL
+    * curl -v -X GET "http://20.194.32.93/v1/place?q=google"
 
 * 인기 키워드 목록을 검색할 경우
-  * 브라우저 : http://20.194.32.93/v1/popular
-  * curl : curl -v -X GET "http://20.194.32.93/v1/popular"
+  * 브라우저
+    * http://20.194.32.93/v1/popular
+  * CURL
+    * curl -v -X GET "http://20.194.32.93/v1/popular"
 
 해당 시스템에 부하가 커질 경우 확장 방법
 * 시스템 확장 시 구성 변경 필요 : 바라보는 DB를 일원화 구성해야 함
